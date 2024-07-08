@@ -6,22 +6,26 @@ addEl.textContent = "Add item";
 // Getting the input field and the text value
 let textEl = document.querySelector("#text-el");
 
-// Getting the main-container to append the button
-let mainContainer = document.querySelector("#main-container");
-mainContainer.appendChild(addEl);
+function createElements() {
+  // Getting the main-container to append the button
+  let mainContainer = document.querySelector("#main-container");
+  mainContainer.appendChild(addEl);
 
-// Creating buttons "Mark as purchased" and "Clear list"
-let markPurcahesed = document.createElement("button");
-let clearList = document.createElement("button");
+  // Creating buttons "Mark as purchased" and "Clear list"
+  let markPurcahesed = document.createElement("button");
+  let clearList = document.createElement("button");
 
-// Adding text values for the buttons
-markPurcahesed.textContent = "Mark Purchased";
-clearList.textContent = "Clear List";
+  // Adding text values for the buttons
+  markPurcahesed.textContent = "Mark Purchased";
+  clearList.textContent = "Clear List";
 
-// Appending the buttons
-let itemsEl = document.querySelector("#items-el");
-itemsEl.appendChild(markPurcahesed);
-itemsEl.appendChild(clearList);
+  // Appending the buttons
+  let itemsEl = document.querySelector("#items-el");
+  itemsEl.appendChild(markPurcahesed);
+  itemsEl.appendChild(clearList);
+}
+
+createElements();
 
 // Holding the list
 let arrayList = [];
