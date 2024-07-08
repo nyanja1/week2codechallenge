@@ -3,7 +3,7 @@
 This project implements a basic shopping list webpage where users can add items, mark them as purchased, and clear the entire list. The application is built using HTML, CSS, and JavaScript for dynamic interaction with the user.
 
 You can find it in the link below:
- https://nyanja1.github.io/week2codechallenge/
+ https:https://rad-lolly-4b762c.netlify.app
 
 ## Features
 
