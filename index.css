@@ -1,0 +1,12 @@
+body {
+  background-image: url(https://plus.unsplash.com/premium_photo-1661381007965-b21e0fb0681b?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JvY2VyeSUyMHNob3BwaW5nfGVufDB8fDB8fHww);
+  background-repeat: no-repeat;
+  background-size: 150%;
+}
+h1 {
+  color: blue;
+  text-align: center;
+}
+p {
+  color: blue;
+}
